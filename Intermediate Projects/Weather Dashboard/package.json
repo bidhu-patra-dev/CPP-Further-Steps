@@ -1,0 +1,17 @@
+{
+    "name": "react",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "npm exec live-server -- --port=3000"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "jsdom": "^26.0.0",
+        "live-server": "^1.2.2"
+    },
+    "dependencies": {
+        "axios": "^1.8.3"
+    }
+}
